@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup"
+    android:background="#E9E3D5"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#190019"
+                android:layout_marginTop="50dp"
+
+                />
+            <ImageView
+                android:id="@+id/ic_cap_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/graduation_cap_solid"
+                android:contentDescription="@string/ic_cap"
+                android:layout_marginTop="50dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/signup"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:textColor="#190019"
+
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tf_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/name"
+                android:layout_marginTop="25dp"
+                app:boxStrokeColor="#01001d"
+                app:cursorColor="#01001d"
+                app:hintTextColor="#01001d"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tietNameSP"
+                    android:layout_height="wrap_content"
+                    android:layout_width="250dp"
+                    android:inputType="text"
+
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tf_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:layout_marginTop="25dp"
+                app:boxStrokeColor="#01001d"
+                app:cursorColor="#01001d"
+                app:hintTextColor="#01001d"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tietEmailSP"
+                    android:layout_height="wrap_content"
+                    android:layout_width="250dp"
+                    android:inputType="textEmailAddress"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tf_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:layout_marginTop="25dp"
+                app:boxStrokeColor="#01001d"
+                app:cursorColor="#01001d"
+                app:hintTextColor="#01001d"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tietPasswordSP"
+                    android:layout_height="wrap_content"
+                    android:layout_width="250dp"
+                    android:inputType="textPassword"
+
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSignup"
+                android:layout_marginTop="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_up"
+                android:background="#1F1717"
+                android:textColor="#F5F7F8"
+                />
+
+            <TextView
+                android:id="@+id/tvSignup"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="@string/already_have_an_account_sign_in"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:textColor="#190019"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

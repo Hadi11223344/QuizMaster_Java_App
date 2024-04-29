@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Quiz Master</string>
+    <string name="quiz_master">Quiz Master</string>
+    <string name="ic_cap">ic_cap</string>
+    <string name="welcome_to_login_screen">Welcome to login screen</string>
+    <string name="login">Login</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="log_in">Log in</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="new_user_sign_up">New user? Sign up</string>
+    <string name="welcome_to_the_signup_activity">Welcome to the Signup activity</string>
+    <string name="name">Name</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="already_have_an_account_sign_in">Already have an account? Sign In</string>
+    <string name="signup">Signup</string>
+    <string name="total_questions">Total Questions:</string>
+    <string name="question">Question:</string>
+    <string name="ans_a">ANS a</string>
+    <string name="ans_c">ANS c</string>
+    <string name="ans_d">ANS d</string>
+    <string name="ans_b">ANS b</string>
+    <string name="submit">Submit</string>
+</resources>
